@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Styled Text Input</title>
+    <style>
+        input[type="text"] {
+            border: 1px solid gray;
+            padding: 8px;
+            font-size: 16px;
+            transition: border-color 0.45s,
+                transform 0.45s;
+        }
+
+        input[type="text"]:focus {
+            border-color: #00ff00;
+            transform: rotate(1deg);
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" placeholder="Click to focus">
+</body>
+
+</html>

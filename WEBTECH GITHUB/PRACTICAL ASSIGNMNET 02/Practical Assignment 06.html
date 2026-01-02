@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Box Model and Inline-Block Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+            margin: 40px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .box-model {
+            width: 200px;
+            height: 80px;
+            padding: 20px;
+            border: 5px solid #4a90e2;
+            margin: 30px;
+            background: #e8f2ff;
+            color: #333;
+        }
+
+        .inline-block-demo {
+            background: #fafafa;
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .item {
+            display: inline-block;
+            width: 120px;
+            height: 60px;
+            margin: 10px;
+            padding: 10px;
+            border: 2px solid #4a90e2;
+            background: #e8f2ff;
+            vertical-align: top;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS Box Model & Inline-Block Demo</h1>
+    <div class="box-model">
+        This box shows content, padding, border, and margin.
+    </div>
+    <div class="inline-block-demo">
+        <div class="item">Item One</div>
+        <div class="item">Item Two</div>
+        <div class="item">Item Three</div>
+        <div class="item">Item Four</div>
+    </div>
+</body>
+
+</html>
